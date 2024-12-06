@@ -6,18 +6,6 @@
 
   &__intro {
     display: grid;
-    min-height: 100vh;
-  }
-
-  &__slide {
-    background-image: linear-gradient(
-        hsla(0, 0%, 10%, 0.3),
-        hsla(0, 0%, 10%, 1)
-      ),
-      url("/src/image/01.webp");
-    background-position: center;
-    background-size: cover;
-    min-height: 20vh;
   }
 
   &__about {

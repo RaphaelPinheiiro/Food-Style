@@ -171,6 +171,7 @@ a {
   background-color: var(--clr-light-100);
   color: var(--clr-neutral-500);
   padding: 0.65em 4em;
+  justify-self: center;
 }
 
 .l-container {
@@ -185,13 +186,6 @@ a {
 }
 .l-main__intro {
   display: grid;
-  min-height: 100vh;
-}
-.l-main__slide {
-  background-image: linear-gradient(hsla(0, 0%, 10%, 0.3), hsl(0, 0%, 10%)), url("/src/image/01.webp");
-  background-position: center;
-  background-size: cover;
-  min-height: 20vh;
 }
 .l-main__about {
   display: grid;
